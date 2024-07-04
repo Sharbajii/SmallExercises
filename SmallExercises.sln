@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zahlen", "..\Zahlen\Zahlen\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String(aufgaben)", "..\String(aufgaben)\String(aufgaben)\String(aufgaben).csproj", "{AB45AE67-E190-48AD-9122-86C1FF915B09}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F49CC6D6-4D5B-4DE7-BAA8-6915E44FFC47}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sortint", "Sortint\Sortint.csproj", "{CD27CBB1-D4A2-4BA8-BE03-F15524BD7968}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskAge", "TaskAge\TaskAge.csproj", "{73D07A84-FCDC-4453-94EB-AFF7160E3C0F}"
