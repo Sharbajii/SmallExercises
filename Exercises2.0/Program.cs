@@ -12,7 +12,7 @@ namespace Exercises2._0
         {
 
 
-
+            Console.WriteLine("Hello World!");
 
             //List<string> list = new List<string>();
             //string input;
@@ -449,131 +449,131 @@ namespace Exercises2._0
 
         }
 
-        public static void PrintNumbersInRangeUserInput()
-        {
-            int userInput;
-            List<int> numbers = new List<int>();
-            Console.WriteLine("Enter numbers");
-            while((userInput = Convert.ToInt32(Console.ReadLine())) != 0)
-            {
-                numbers.Add(userInput);
-            }
+        //public static void PrintNumbersInRangeUserInput()
+        //{
+        //    int userInput;
+        //    List<int> numbers = new List<int>();
+        //    Console.WriteLine("Enter numbers");
+        //    while((userInput = Convert.ToInt32(Console.ReadLine())) != 0)
+        //    {
+        //        numbers.Add(userInput);
+        //    }
            
-            Console.WriteLine("Enter the lowerlimit: ");
-            int lowerLimit = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the Upperlimit: ");
-            int upperLimit= Convert.ToInt32(Console.ReadLine());
-            PrintNumbersInRange(numbers, lowerLimit, upperLimit);
-        }
+        //    Console.WriteLine("Enter the lowerlimit: ");
+        //    int lowerLimit = Convert.ToInt32(Console.ReadLine());
+        //    Console.WriteLine("Enter the Upperlimit: ");
+        //    int upperLimit= Convert.ToInt32(Console.ReadLine());
+        //    PrintNumbersInRange(numbers, lowerLimit, upperLimit);
+        //}
 
-        public static void PrintNumbersInRange(List<int> numbers, int lowerLimit, int upperLimit)
-        {
-            Console.WriteLine("Numbers in the rage [ " + lowerLimit+ " , " + upperLimit +" ]:");
-            foreach(int number in numbers)
-            {
-                if(number > lowerLimit && number < upperLimit)
-                {
-                    Console.WriteLine(number);
-                }
-            }
+        //public static void PrintNumbersInRange(List<int> numbers, int lowerLimit, int upperLimit)
+        //{
+        //    Console.WriteLine("Numbers in the rage [ " + lowerLimit+ " , " + upperLimit +" ]:");
+        //    foreach(int number in numbers)
+        //    {
+        //        if(number > lowerLimit && number < upperLimit)
+        //        {
+        //            Console.WriteLine(number);
+        //        }
+        //    }
             
-        }
+        //}
 
 
 
 
-        public static void SumByUser()
-        {
-            int input=1;
-            List<int> numbers = new List<int>();
-            Console.WriteLine("enter numbers");
-            while (input != 0)
-            {
-                input = Convert.ToInt32(Console.ReadLine());
-                if (input == 0)
-                {
-                    break;
+        //public static void SumByUser()
+        //{
+        //    int input=1;
+        //    List<int> numbers = new List<int>();
+        //    Console.WriteLine("enter numbers");
+        //    while (input != 0)
+        //    {
+        //        input = Convert.ToInt32(Console.ReadLine());
+        //        if (input == 0)
+        //        {
+        //            break;
 
-                }
-                numbers.Add(input);
+        //        }
+        //        numbers.Add(input);
                 
-            }
-          Console.WriteLine("the sum is: "+ Sum(numbers));
+        //    }
+        //  Console.WriteLine("the sum is: "+ Sum(numbers));
             
-        }
+        //}
 
-        public static int Sum(List<int> numbers)
-        {
+        //public static int Sum(List<int> numbers)
+        //{
            
-            foreach (int number in numbers)
-            {
-                Console.WriteLine(number);
+        //    foreach (int number in numbers)
+        //    {
+        //        Console.WriteLine(number);
                
-            }
+        //    }
            
 
-              return numbers.Sum();
+        //      return numbers.Sum();
             
 
            
-        }
+        //}
 
 
 
-        public static void RemoveLast(List<string> strings)
-        {
-            if (strings.Count > 0)
-            {
-                strings.RemoveAt(strings.Count - 1);
-            }
-        }
-
-
-
-
-
-        public static int SumOfNumbersInArray(int[] array)
-        {
-            int sum=0;
-            int[] ints = new int[] { 5, 4, 3, 2, 1 };
-            foreach(int i in ints)
-            {
-                 sum = sum + i;
-
-            }
-            return sum;
-
-        }
-
-
-
-        public static void PrintNeatly(int[] array)
-        {
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.Write(array[i]);
-                if (i != array.Length - 1)
-                {
-                    Console.Write(", ");
-                }
-            }
-            Console.WriteLine();
-        }
+        //public static void RemoveLast(List<string> strings)
+        //{
+        //    if (strings.Count > 0)
+        //    {
+        //        strings.RemoveAt(strings.Count - 1);
+        //    }
+        //}
 
 
 
 
-        public static void PrintArrayInStars(int[] array)
-        {
-            foreach (int num in array)
-            {
-                for (int i = 0; i < num; i++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
-            }
-        }
+
+        //public static int SumOfNumbersInArray(int[] array)
+        //{
+        //    int sum=0;
+        //    int[] ints = new int[] { 5, 4, 3, 2, 1 };
+        //    foreach(int i in ints)
+        //    {
+        //         sum = sum + i;
+
+        //    }
+        //    return sum;
+
+        //}
+
+
+
+        //public static void PrintNeatly(int[] array)
+        //{
+        //    for (int i = 0; i < array.Length; i++)
+        //    {
+        //        Console.Write(array[i]);
+        //        if (i != array.Length - 1)
+        //        {
+        //            Console.Write(", ");
+        //        }
+        //    }
+        //    Console.WriteLine();
+        //}
+
+
+
+
+        //public static void PrintArrayInStars(int[] array)
+        //{
+        //    foreach (int num in array)
+        //    {
+        //        for (int i = 0; i < num; i++)
+        //        {
+        //            Console.Write("*");
+        //        }
+        //        Console.WriteLine();
+        //    }
+        //}
 
 
     }
